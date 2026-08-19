@@ -85,6 +85,11 @@ export default function App() {
 
       {/* Footer */}
       <footer className="footer">
+        <div className="footer-links">
+          <a href="/privacy" className="footer-link">Privacy Policy</a>
+          <span className="footer-separator">•</span>
+          <a href="mailto:support@curiousme.net" className="footer-link">Contact Support</a>
+        </div>
         <p className="footer-copyright">© 2026 Curious Me. All rights reserved.</p>
         <p className="footer-disclaimer">
           Curious Me is not a medical service and does not provide medical advice.
